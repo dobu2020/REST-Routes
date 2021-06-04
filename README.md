@@ -1,2 +1,2 @@
 # REST-Routes
-routing  with CRUD 
+routing  with GET and POST http verbs
