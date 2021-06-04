@@ -10,7 +10,7 @@
   <body>
     <h1>Explains GET VS POST REQUESTS</h1>
     <h2>1.GET:requesting data via url</h2>
-    <p>Retrieving information ,viewing a page is done by get request.
+    <p>--Retrieving information ,viewing a page is done by get request.
         Get request doesn't change the backend data
     </p>
     <form action="http://localhost:8000/" method="GET">
@@ -18,8 +18,9 @@
         <input type="number" name="qty">
         <button>Submit your order</button>
     </form>
-    <h2>1.POST:update/create/write data</h2>
-    <p> With post request we can't see the data on url </p>
+    <h2>2.POST:update/create/write data</h2>
+    <p>--With post request we can't see the data on url.
+        With Post request we can update data and delete data etc.. </p>
     <form action="http://localhost:8000/" method="POST">
         <input type="text" name="meat">
         <input type="number" name="qty">
